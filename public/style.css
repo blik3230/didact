@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 10px;
+  outline: 1px solid red;
+}
+
+.item__wrap-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 100px;
+  outline: 1px solid red;
+}
+
+.item__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.item__title {
+  flex: 1 0 0;
+  text-align: center;
+}

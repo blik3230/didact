@@ -1,2 +1,0 @@
-# didact
-Created with CodeSandbox
